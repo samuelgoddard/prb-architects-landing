@@ -1,0 +1,59 @@
+body {
+  @apply font-sans antialiased;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  @apply
+    p-0
+    mb-6
+		leading-tight
+    font-display;
+}
+
+h1 {
+	@apply text-xl;
+}
+
+h2 {
+	@apply text-lg;
+}
+
+.text-screen-display {
+  @apply text-7xl;
+
+  @screen md {
+    font-size: 15vw;
+  }
+}
+
+button {
+  @apply outline-none border-none appearance-none;
+}
+
+/* Link */
+.link {
+  @apply text-black underline transition;
+
+  &:hover, &:focus {
+    @apply text-gray-600;
+  }
+
+  &.is--active {
+    @apply text-red-700;
+  }
+}
+
+/* Content */
+.content {
+  
+  /* Paragraph */
+  p {
+    @apply mb-6;
+  }
+
+  /* Headings following paragraphs */
+  p + h1, p + h2, p + h3, p + h4 {
+    @apply pt-6 block;
+  }
+}
