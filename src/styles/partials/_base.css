@@ -9,3 +9,11 @@ a {
 .landing-image {
 	height: 60vh;
 }
+
+.min-h-screen {
+	min-height: -webkit-fill-available;
+}
+
+.h-screen {
+	height: -webkit-fill-available;
+}
