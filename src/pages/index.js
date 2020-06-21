@@ -1,6 +1,7 @@
 import React from "react"
 import SEO from "../components/seo"
 import { motion } from "framer-motion"
+import introGif from "../images/prb-intro.gif"
 
 const transition = { duration: 0.5, ease: [0.43, 0.13, 0.23, 0.96] }
 
@@ -25,12 +26,15 @@ const IndexPage = () => {
           enter: { transition: { staggerChildren: 0.2 } }
         }}
       >
+        <motion.div variants={item} className="absolute top-0 right-0 landing-image w-7/12 md:w-1/3">
+          <img src={ introGif } className="w-full h-full object-cover" />
+        </motion.div>
         <div className="p-4 md:p-6  flex flex-wrap h-screen">
           <div className="w-full">
             <motion.div 
               className="content"
               variants={item}
-              className="max-w-2xs"
+              className="w-32 md:w-full md:max-w-2xs"
             >
               <motion.p variants={item} className="text-lg md:text-xl">Full site launch Spring 2020</motion.p>
             </motion.div>
