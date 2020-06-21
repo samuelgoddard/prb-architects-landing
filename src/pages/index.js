@@ -29,7 +29,7 @@ const IndexPage = () => {
         <motion.div variants={item} className="absolute top-0 right-0 landing-image w-7/12 md:w-1/3">
           <img src={ introGif } className="w-full h-full object-cover" alt="Gif of project imagery" />
         </motion.div>
-        <div className="p-4 md:p-6  flex flex-wrap h-screen">
+        <div className="p-4 md:p-6  flex flex-wrap h-screenn">
           <div className="w-full">
             <motion.div 
               className="content"

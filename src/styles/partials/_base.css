@@ -10,10 +10,11 @@ a {
 	height: 60vh;
 }
 
-.min-h-screen {
-	min-height: -webkit-fill-available;
+.min-h-screenn {
+	min-height: 100vh !important;
+	min-height: -webkit-fill-available !important;
 }
 
-.h-screen {
-	height: -webkit-fill-available;
+.h-screenn {
+	height: -webkit-fill-available !important;
 }

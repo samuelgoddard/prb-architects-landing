@@ -5,7 +5,7 @@ import "../styles/main.css"
 const Layout = ({ children }) => {
   return (
     <>
-      <div className="bg-prbred min-h-screen">
+      <div className="bg-prbred min-h-screenn">
         <AnimatePresence>
           {children}
         </AnimatePresence>
