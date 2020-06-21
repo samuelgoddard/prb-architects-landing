@@ -27,7 +27,7 @@ const IndexPage = () => {
         }}
       >
         <motion.div variants={item} className="absolute top-0 right-0 landing-image w-7/12 md:w-1/3">
-          <img src={ introGif } className="w-full h-full object-cover" />
+          <img src={ introGif } className="w-full h-full object-cover" alt="Gif of project imagery" />
         </motion.div>
         <div className="p-4 md:p-6  flex flex-wrap h-screen">
           <div className="w-full">
@@ -36,7 +36,7 @@ const IndexPage = () => {
               variants={item}
               className="w-32 md:w-full md:max-w-2xs"
             >
-              <motion.p variants={item} className="text-lg md:text-xl">Full site launch Spring 2020</motion.p>
+              <motion.h1 variants={item} className="text-lg md:text-xl">Full site launch Spring 2020</motion.h1>
             </motion.div>
           </div>
 
