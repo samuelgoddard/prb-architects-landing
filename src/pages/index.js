@@ -53,11 +53,11 @@ const IndexPage = () => {
                 <li className="md:text-lg xl:text-2xl py-2 md:py-3 px-2 lg:px-4 xl:px-6 block border-l border-black pr-12 xl:pr-32 2xl:pr-64 hidden md:block">Architecture + Restoration</li>
 
                 <li className="border-l border-black">
-                  <a className="md:text-lg md:text-lg xl:text-2xl py-2 md:py-3 px-2 lg:px-4 xl:px-6 block hover:text-white focus:text-white hover:line-through hover:line-through" href="https://example.com" target="_blank" rel="noopener noreferrer">Twi<span className="hidden md:inline">tter</span></a>
+                  <a className="md:text-lg md:text-lg xl:text-2xl py-2 md:py-3 px-2 lg:px-4 xl:px-6 block hover:text-white focus:text-white hover:line-through hover:line-through" href="https://twitter.com/prbarchitects" target="_blank" rel="noopener noreferrer">Twi<span className="hidden md:inline">tter</span></a>
                 </li>
 
                 <li className="border-l border-black">
-                  <a className="md:text-lg md:text-lg xl:text-2xl py-2 md:py-3 px-2 lg:px-4 xl:px-6 pr-0 block hover:text-white focus:text-white hover:line-through hover:line-through" href="https://example.com" target="_blank" rel="noopener noreferrer">Insta<span className="hidden md:inline">gram</span></a>
+                  <a className="md:text-lg md:text-lg xl:text-2xl py-2 md:py-3 px-2 lg:px-4 xl:px-6 pr-0 block hover:text-white focus:text-white hover:line-through hover:line-through" href="https://www.instagram.com/prbarchitects/" target="_blank" rel="noopener noreferrer">Insta<span className="hidden md:inline">gram</span></a>
                 </li>
               </ul>
               <ul className="flex flex-wrap border-b border-black md:hidden">
