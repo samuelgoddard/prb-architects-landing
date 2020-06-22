@@ -1,9 +1,5 @@
-a {
-	@apply transition duration-300;
-}
-
-[class*='transition'] {
-	@apply duration-300;
+html, body {
+	@apply bg-prbred;
 }
 
 .landing-image {
