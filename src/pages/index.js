@@ -33,7 +33,7 @@ const IndexPage = () => {
             <motion.div 
               className="content"
               variants={item}
-              className="w-32 md:w-full md:max-w-2xs"
+              className="w-32 md:w-1/2"
             >
               <motion.h1 variants={item} className="text-lg md:text-xl">Full site launch Summer 2020</motion.h1>
             </motion.div>
@@ -63,7 +63,7 @@ const IndexPage = () => {
                 </li>
               </ul>
               <ul className="flex flex-wrap border-b border-black md:hidden">
-                <li className="md:text-lg py-2 block pr-12 block">Architecture + Restoration</li>
+                <li className="md:text-lg py-2 block pr-12 block">Architecture + Conservation</li>
               </ul>
             </motion.div>
           </div>
