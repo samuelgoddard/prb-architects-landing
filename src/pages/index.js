@@ -35,7 +35,7 @@ const IndexPage = () => {
               variants={item}
               className="w-32 md:w-full md:max-w-2xs"
             >
-              <motion.h1 variants={item} className="text-lg md:text-xl">Full site launch Spring 2020</motion.h1>
+              <motion.h1 variants={item} className="text-lg md:text-xl">Full site launch Summer 2020</motion.h1>
             </motion.div>
           </div>
 
@@ -52,7 +52,7 @@ const IndexPage = () => {
                   <a className="md:text-lg xl:text-2xl py-2 md:py-3 px-2 lg:px-4 xl:px-6 block hover:text-white focus:text-white hover:line-through hover:line-through" href="mailto:hello@prb-a.com" target="_blank" rel="noopener noreferrer">hello@prb-a.com</a>
                 </li>
 
-                <li className="md:text-lg xl:text-2xl py-2 md:py-3 px-2 lg:px-4 xl:px-6 block border-l border-black pr-12 xl:pr-32 2xl:pr-64 hidden md:block">Architecture + Restoration</li>
+                <li className="md:text-lg xl:text-2xl py-2 md:py-3 px-2 lg:px-4 xl:px-6 block border-l border-black pr-12 xl:pr-32 2xl:pr-64 hidden md:block">Architecture + Conservation</li>
 
                 <li className="border-l border-black">
                   <a className="md:text-lg md:text-lg xl:text-2xl py-2 md:py-3 px-2 lg:px-4 xl:px-6 block hover:text-white focus:text-white hover:line-through hover:line-through" href="https://twitter.com/prbarchitects" target="_blank" rel="noopener noreferrer">Twi<span className="hidden md:inline">tter</span></a>

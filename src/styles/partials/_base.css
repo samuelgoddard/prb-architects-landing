@@ -3,7 +3,11 @@ html, body {
 }
 
 .landing-image {
-	height: 60vh;
+	height: 50vh;
+
+	@screen md {
+		height: 60vh;
+	}
 }
 
 .min-h-screenn {
