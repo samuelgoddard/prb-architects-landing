@@ -35,7 +35,7 @@ const IndexPage = () => {
               variants={item}
               className="w-32 md:w-1/2"
             >
-              <motion.h1 variants={item} className="text-lg md:text-xl">Full site launch Summer 2020</motion.h1>
+              <motion.h1 variants={item} className="text-lg md:text-xl">Full site launch Autumn 2020</motion.h1>
             </motion.div>
           </div>
 
